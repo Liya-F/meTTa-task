@@ -9,5 +9,5 @@
 )
 
 ;testcase
-!(is-member 2 (Cons 2 (Cons 7 (Cons 3 ())))) ;True
-!(is-member 4 (Cons 2 (Cons 7 (Cons 3 ())))) ;False
+!(is-member 2 (Cons 2 (Cons 7 (Cons 3 Nil)))) ;True
+!(is-member 4 (Cons 2 (Cons 7 (Cons 3 Nil)))) ;False
